@@ -1,24 +1,23 @@
-# README
+## Odin-kittens project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend app for the odin-kittens project
+## Getting Started
 
-Things you may want to cover:
+First, run the development server:
 
-* Ruby version
+```bash
+rails db:create
+```
 
-* System dependencies
+```bash
+rails db:migrate
+```
 
-* Configuration
+```bash
+rails s
+```
 
-* Database creation
+Second, clone and run [odin-kittens-client](https://github.com/den-ii/odin-kittiens-client)
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
